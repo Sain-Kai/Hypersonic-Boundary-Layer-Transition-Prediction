@@ -1,0 +1,25 @@
+Metric_Category,Specific_Metric,Typical_Accuracy_Target,Measurement_Method,Critical_For,Hypersonic_Specific_Considerations
+Flow Field Accuracy,Pressure Coefficient (Cp),±5% for Cp distribution,"Surface pressure taps, PIV",Surface loading analysis,Shock-boundary layer interaction
+Flow Field Accuracy,"Velocity Field (u,v,w)",±2-5% for velocity magnitude,"PIV, LDV, hot wire",Flow separation prediction,High temperature effects
+Flow Field Accuracy,Mach Number Distribution,±3% for Mach number,Pressure sensitive paint,Shock wave analysis,Real gas effects on Mach
+Flow Field Accuracy,Temperature Field,±10% for temperature field,Temperature sensitive paint,Thermal analysis,Chemical non-equilibrium
+Force Coefficients,Lift Coefficient (CL),±1% for lift coefficient,Force balance measurements,Vehicle performance,Trim capability crucial
+Force Coefficients,Drag Coefficient (CD),±1-2% for drag coefficient,"Wake survey, pressure drag",Drag estimation,Wave drag dominance
+Force Coefficients,Pitching Moment (Cm),±5% for pitching moment,"Force balance, moment arm",Stability analysis,High M moment sensitivity
+Force Coefficients,Lift-to-Drag Ratio (L/D),±2% for L/D ratio,Direct calculation CL/CD,Aerodynamic efficiency,Hypersonic L/D typically <2
+Transition Prediction,Transition Location (xtr),±10% chord for transition,"Hot film, LDA, oil flow",Boundary layer prediction,Multiple transition modes
+Transition Prediction,N-factor Distribution,±0.5 for N-factor prediction,Linear stability analysis,Transition onset,High Re transition delayed
+Transition Prediction,Intermittency Factor (γ),±0.1 for intermittency,Conditional sampling,Mixed flow regions,Chemical effects on γ
+Transition Prediction,Shape Factor (H),±5% for shape factor,Boundary layer profiles,Boundary layer health,Compressibility effects
+Heat Transfer,Stanton Number (St),±10% for Stanton number,"Heat flux gauges, IRT",Thermal protection,Radiative heat transfer
+Heat Transfer,Nusselt Number (Nu),±15% for Nusselt number,Convective heat transfer,Cooling system design,Catalytic wall effects
+Heat Transfer,Heat Flux (q̇),±20% for heat flux,"Calorimetry, thin film",Material selection,Dissociation effects
+Heat Transfer,Wall Temperature (Tw),±5% for wall temperature,"Thermocouple, IR camera",Thermal barrier design,Ablation coupling
+Model Performance,Mean Squared Error (MSE),MSE < 0.01 (normalized),Statistical analysis,ML model training,Limited experimental data
+Model Performance,Mean Absolute Error (MAE),MAE < 5% of mean value,Absolute difference metrics,Model validation,Computational requirements
+Model Performance,R-squared (R²),R² > 0.95 for good fit,Correlation coefficient,Predictive accuracy,Model complexity scaling
+Model Performance,Relative Error (%),<5% for critical parameters,Normalized error analysis,Parameter sensitivity,Uncertainty quantification
+Validation Metrics,Wind Tunnel Comparison,±10% agreement with tunnel,Benchmark test cases,Model credibility,Limited flight data
+Validation Metrics,Flight Data Validation,±15% agreement with flight,Historical flight records,Real-world applicability,Ground test scaling
+Validation Metrics,Grid Convergence,<1% grid dependency,Mesh refinement study,Numerical accuracy,High enthalpy effects
+Validation Metrics,Time Convergence,<0.5% time dependency,Temporal resolution study,Solution stability,Real flight environments

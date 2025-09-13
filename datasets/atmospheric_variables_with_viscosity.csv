@@ -1,0 +1,16 @@
+Variable,Effect on Transition,Typical Values,Measurement Method
+Temperature (T),Affects viscosity and density,288 K (15°C),Thermometer/Thermocouple
+Pressure (P),Affects density and compressibility,101325 Pa,Barometer
+Density (ρ),Direct influence on Reynolds number,1.225 kg/m³,Derived from T and P
+Wind Velocity (U),Drives boundary layer development,0-50+ m/s,Anemometer/Pitot tube
+Altitude (h),Affects all atmospheric properties,0 m,GPS/Altimeter
+Humidity,Modifies density and heat transfer,0-100% RH,Hygrometer
+Surface Roughness (z₀),Triggers turbulence at surface,0.001-1.0 m,Surface analysis
+Stability Parameter,Determines BL stability,Varies with time,Temperature/Wind profiles
+Coriolis Parameter,Affects large-scale flow patterns,1.45×10⁻⁴ s⁻¹ (45°N),Geographic location
+Friction Velocity (u*),Surface stress parameter,0.1-2.0 m/s,Turbulence measurements
+Obukhov Length (L),Stability length scale,-1000 to +1000 m,Surface heat flux
+Dynamic Viscosity (μ),Key parameter in Reynolds # calculation,"1.789×10⁻⁵ Pa·s (air, 15°C)","Viscometer/Computed from T, P"
+Kinematic Viscosity (ν),Ratio of μ to ρ; Re = UL/ν,"1.460×10⁻⁵ m²/s (air, 15°C)","Derived from μ, ρ"
+Viscosity Ratio (μ/μ_ref),Captures temperature changes,0.5–2.0 over temperature range,Temperature correlation
+Temperature Viscosity Index,Sutherland’s law for temperature dependence,0.76 for air,Sutherland law application

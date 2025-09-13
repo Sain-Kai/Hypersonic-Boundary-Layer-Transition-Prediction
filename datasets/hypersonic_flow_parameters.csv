@@ -1,0 +1,21 @@
+Parameter,Typical Range/Values,Physical Significance,Measurement/Calculation
+Mach Number (M),"M > 5 (Hypersonic), M = 10-25 (Re-entry), M ≥ 25 (High hypersonic)",Determines compressibility effects and shock strength,V/a (velocity/sound speed)
+Reynolds Number (Re),"Re = 10⁴ - 10⁷ (based on length), Re = 10⁶ - 10⁸ (per meter)",Controls viscous effects and boundary layer transition,ρVL/μ (inertial/viscous forces)
+Knudsen Number (Kn),"Kn < 0.01 (Continuum), 0.01 < Kn < 1 (Transitional), Kn > 1 (Free molecular)",Determines continuum vs. rarefied flow regime,λ/L (mean free path/characteristic length)
+Wall Temperature Ratio (Tw/T0),"0.1 - 0.6 (Cold wall), 0.8 - 1.0 (Adiabatic wall)",Critical for heat transfer and thermal protection,Direct temperature measurements
+Stagnation Temperature (T0),1000 - 10000 K (depending on Mach number),Drives chemical reactions and real gas effects,From Mach number and ambient conditions
+Wall Temperature (Tw),300 - 1800 K (thermal protection systems),Determines material temperature limits,"Thermocouple, radiation measurements"
+Pressure Ratio (p2/p1),p2/p1 = 2M²γ/(γ+1) for strong shocks,Shock wave strength and compression heating,Rankine-Hugoniot relations
+Density Ratio (ρ2/ρ1),ρ2/ρ1 = (γ+1)/(γ-1) ≈ 6 for air at high M,Mass conservation across shock waves,Conservation equations across shock
+Velocity (V),"1.5 - 12 km/s (Earth entry), up to 15 km/s (interplanetary)",Kinetic energy available for heating,"Trajectory reconstruction, radar tracking"
+Altitude Range,20 - 150 km (Earth atmospheric entry),Atmospheric density and composition variation,"Mission requirements, orbital mechanics"
+Atmospheric Density (ρ),10⁻⁶ - 10⁻² kg/m³ (altitude dependent),Determines aerodynamic forces and heating,"Atmospheric models (US Standard, GRAM)"
+Dynamic Pressure (q),10² - 10⁶ Pa (altitude and velocity dependent),Aerodynamic loading on vehicle structure,½ρV² from density and velocity
+Heat Transfer Rate (q̇),10⁴ - 10⁷ W/m² (peak heating),Thermal protection system requirements,"Heat flux gauges, calorimetry"
+Skin Friction Coefficient (Cf),"0.001 - 0.01 (laminar), 0.002 - 0.005 (turbulent)",Surface shear stress and drag,Surface pressure and shear measurements
+N-factor (Transition),N = 7-9 (transition threshold for e^N method),Boundary layer stability and transition prediction,Linear stability theory integration
+Intermittency Factor (γ),γ = 0 (laminar) to γ = 1 (fully turbulent),Fraction of turbulent flow in transitional region,Transition model output (0 ≤ γ ≤ 1)
+Shock Standoff Distance (Δ),Δ/R ∝ 1/M² (thin shock layer at high M),Shock-boundary layer interaction strength,"Shock shape measurements, CFD"
+Entropy Layer Thickness,O(δ) boundary layer thickness,"High entropy, temperature, vorticity region","Flow visualization, CFD analysis"
+Boundary Layer Thickness (δ),10⁻³ - 10⁻¹ m (depends on Re and geometry),Viscous region thickness,"Pitot measurements, boundary layer profiles"
+Temperature Jump (ΔT),100 - 1000 K (temperature jump at wall),Non-equilibrium surface effects,"Kinetic theory, slip boundary conditions"

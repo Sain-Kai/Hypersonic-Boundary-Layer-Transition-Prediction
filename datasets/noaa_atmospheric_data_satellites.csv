@@ -1,0 +1,21 @@
+Data_Source,Parameter,Altitude_Range,Critical_For_Satellites,Typical_Values_Range,Update_Frequency,Impact_on_Atmospheric_Entry
+GOES Satellites,Solar X-ray Flux,"0-100,000 km (space)",Solar panel degradation,10⁻⁹ to 10⁻³ W/m²,Real-time (minutes),Upper atmosphere heating
+GOES Satellites,Energetic Particles,"200-36,000 km (LEO-GEO)",Single event upsets,10⁻⁶ to 10³ particles/cm²/s,Real-time (minutes),Radiation environment
+GOES Satellites,Magnetic Field,Solar wind to surface,Attitude control,20-80 nT,Real-time (seconds),Plasma interactions
+GOES Satellites,Solar Wind Speed,Solar wind region,Solar array orientation,300-800 km/s,Real-time (minutes),Atmospheric expansion
+SWPC Models,Atmospheric Density,80-1000 km,Orbital decay prediction,10⁻¹⁵ to 10⁻¹⁰ kg/m³,3-hourly forecasts,Variable density profiles
+SWPC Models,Satellite Drag Models,150-2000 km,Station-keeping maneuvers,Drag force 10⁻⁷ to 10⁻³ N,Daily updates,Unpredictable drag forces
+SWPC Models,Thermosphere Temperature,80-500 km,Drag coefficient calculation,500-2000 K,3-hourly,Atmospheric expansion
+SWPC Models,Upper Atmosphere Winds,80-400 km,Orbit determination,±500 m/s,Daily,Cross-wind effects
+NESDIS Products,Total Electron Content,"50-20,000 km",GPS accuracy,1-500 TECU,Real-time/15 min,Entry blackout duration
+NESDIS Products,Ionospheric Disturbances,60-2000 km,Communication disruption,S4 index 0-2,Real-time,Communication loss
+NESDIS Products,Scintillation Index,100-1500 km,Signal quality,Scintillation 0-1,Real-time,Navigation accuracy
+NESDIS Products,Plasma Density,"60-20,000 km",Communication systems,10³-10⁶ electrons/cm³,Real-time,Radio frequency effects
+Atmospheric Models,MSIS Atmospheric Model,0-2500 km,Atmospheric drag modeling,"Density, T, composition",Monthly climatology,Entry trajectory modeling
+Atmospheric Models,HWM Wind Model,0-500 km,Attitude dynamics,Wind vectors ±200 m/s,Climatological,Entry vehicle dynamics
+Atmospheric Models,IRI Ionosphere Model,50-2000 km,Radio propagation,"Ne, Te, Ti profiles",Monthly updates,Communication planning
+Atmospheric Models,CCMC Model Suite,0-100 RE,Space environment,Multi-parameter output,Event-driven,Integrated modeling
+Space Weather Indices,Kp Index,Global index,Geomagnetic activity,0-9 (quiet to severe),3-hourly,Storm-time variations
+Space Weather Indices,Dst Index,Global index,Storm intensity,±500 nT,Hourly,Enhanced atmospheric density
+Space Weather Indices,F10.7 Solar Flux,Solar measurement,Long-term trends,50-300 SFU,Daily,Solar cycle effects
+Space Weather Indices,Ap Index,Global index,Daily magnetic activity,0-400 (quiet to severe),Daily,Magnetic disturbances

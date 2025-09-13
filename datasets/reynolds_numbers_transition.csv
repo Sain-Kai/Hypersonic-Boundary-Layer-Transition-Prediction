@@ -1,0 +1,11 @@
+Geometry/System,Laminar Range (Re),Transition Range (Re),Turbulent Range (Re),Characteristic Length
+Circular Pipe,< 2000,2000-3500,> 3500,Diameter (D)
+Circular Pipe (Conservative),< 2300,2300-4000,> 4000,Diameter (D)
+Flat Plate (Blasius),< 5×10⁵,(3-5)×10⁵,> 5×10⁵,Distance from leading edge (x)
+Flat Plate (Experiment),< 3×10⁵,(3-6)×10⁵,> 6×10⁵,Distance from leading edge (x)
+Circular Cylinder,< 47,47-200,> 200,Diameter (D)
+Sphere,"< 200,000","200,000-400,000","> 400,000",Diameter (D)
+Channel Flow,< 1000,1000-4000,> 4000,Hydraulic diameter (Dₕ)
+Hypersonic Cone (Sharp),< 6×10⁶,(6-20)×10⁶,> 20×10⁶,Distance from nose (x)
+Hypersonic Cone (Blunt),Varies with bluntness,Lower than sharp,Case dependent,Distance from nose (x)
+Atmospheric Boundary Layer,Complex (altitude dependent),Variable,Highly variable,Roughness length/Height
